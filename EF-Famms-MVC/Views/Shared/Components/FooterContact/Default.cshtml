@@ -1,0 +1,25 @@
+﻿@model FooterContactVM
+
+<div class="contact_link_box">
+    @foreach (var footerContact in Model.FooterContacts)
+    {
+        <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>
+                @footerContact.Adress
+            </span>
+        </a>
+        <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>
+                Call  @footerContact.PhoneNumber
+            </span>
+        </a>
+        <a href="">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>
+                @footerContact.Email
+            </span>
+        </a>
+    }
+</div>

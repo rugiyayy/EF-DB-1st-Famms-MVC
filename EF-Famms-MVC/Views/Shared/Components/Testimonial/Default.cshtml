@@ -1,0 +1,33 @@
+﻿<div class="carousel-inner">
+
+    @{
+        var i = 0;
+
+        @foreach (var testimonial in Model.Testimonials)
+        {
+            var itemClass = i++ == 0 ? "carousel-item active" : "carousel-item";
+            <div class="@itemClass">
+                <div class="box col-lg-10 mx-auto">
+                <div class="img_container">
+                    <div class="img-box">
+                        <div class="img_box-inner">
+                            <img src="~/images/@testimonial.ImgPath" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        @testimonial.Fullname
+                    </h5>
+                    <h6>
+                        @testimonial.Position
+                    </h6>
+                    <p>
+                        @testimonial.Description
+                    </p>
+                </div>
+            </div>
+        </div>
+        }
+    }
+</div>

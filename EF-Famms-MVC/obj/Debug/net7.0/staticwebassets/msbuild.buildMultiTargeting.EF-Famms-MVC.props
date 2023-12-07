@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EF-Famms-MVC.props" />
+</Project>

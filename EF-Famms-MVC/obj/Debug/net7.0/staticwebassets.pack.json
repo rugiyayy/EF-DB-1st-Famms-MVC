@@ -1,0 +1,153 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\arrival-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\arrival-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\arrival-bg.png",
+      "PackagePath": "staticwebassets\\images\\arrival-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\avatar1.png",
+      "PackagePath": "staticwebassets\\images\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\images\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\client.jpg",
+      "PackagePath": "staticwebassets\\images\\client.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p1.png",
+      "PackagePath": "staticwebassets\\images\\p1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p10.png",
+      "PackagePath": "staticwebassets\\images\\p10.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p11.png",
+      "PackagePath": "staticwebassets\\images\\p11.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p12.png",
+      "PackagePath": "staticwebassets\\images\\p12.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p2.png",
+      "PackagePath": "staticwebassets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p3.png",
+      "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p4.png",
+      "PackagePath": "staticwebassets\\images\\p4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p5.png",
+      "PackagePath": "staticwebassets\\images\\p5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p6.png",
+      "PackagePath": "staticwebassets\\images\\p6.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p7.png",
+      "PackagePath": "staticwebassets\\images\\p7.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p8.png",
+      "PackagePath": "staticwebassets\\images\\p8.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\p9.png",
+      "PackagePath": "staticwebassets\\images\\p9.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\EF-Famms-MVC\\EF-Famms-MVC\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EF-Famms-MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EF-Famms-MVC.props",
+      "PackagePath": "build\\EF-Famms-MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EF-Famms-MVC.props",
+      "PackagePath": "buildMultiTargeting\\EF-Famms-MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EF-Famms-MVC.props",
+      "PackagePath": "buildTransitive\\EF-Famms-MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

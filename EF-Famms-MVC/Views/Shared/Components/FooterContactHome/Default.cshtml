@@ -1,0 +1,24 @@
+﻿@model FooterContactVM
+
+<div class="information_f">
+    @foreach (var footerContact in Model.FooterContacts)
+    {
+
+        <p><strong>ADDRESS:</strong> @footerContact.Adress</p>
+        <p><strong>TELEPHONE:</strong> @footerContact.PhoneNumber</p>
+        <p><strong>EMAIL:</strong> @footerContact.Email</p>
+        
+            
+     
+        
+    }
+</div>
+
+
+
+@*
+<div class="information_f">
+    <p><strong>ADDRESS:</strong> @Model.FooterContacts[0].Email</p>                   //Find out the reason  -  Why does this method work, while others don't?
+    <p><strong>TELEPHONE:</strong> @Model.FooterContacts.Email</p>
+    <p><strong>EMAIL:</strong> @Model.Email</p>
+</div>*@
