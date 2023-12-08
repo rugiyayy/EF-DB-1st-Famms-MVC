@@ -25,6 +25,7 @@
 </head>
 <body>
         <header class="header_section">
+
             <div class="container">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="/"><img width="250" src="~/images/logo.png" alt="#" /></a>
@@ -116,6 +117,8 @@
                         </ul>
                     </div>
                 </nav>
+            
+            <h1 class="text-white bg-dark d-inline-block mx-auto m-2">@DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss")</h1>
             </div>
         </header>
         <!-- end header section -->
@@ -221,4 +224,5 @@
     <!-- custom js -->
     <script src="~/js/custom.js"></script>
 </body>
+@RenderSection("ValidationScript", false)
 </html>

@@ -12,4 +12,6 @@ public partial class ProductsTbl
     public decimal Price { get; set; }
 
     public string ImgPath { get; set; } = null!;
+
+ 
 }

@@ -17,8 +17,9 @@ public partial class FammsDbContext : DbContext
 
     public virtual DbSet<FooterContact> FooterContacts { get; set; }
 
-
     public virtual DbSet<ProductsTbl> ProductsTbls { get; set; }
+
+    public virtual DbSet<Query> Queries { get; set; }
 
     public virtual DbSet<Testimonial> Testimonials { get; set; }
 
@@ -58,6 +59,17 @@ public partial class FammsDbContext : DbContext
                 .HasMaxLength(100)
                 .HasColumnName("NAME");
             entity.Property(e => e.Price).HasColumnType("money");
+        });
+
+        modelBuilder.Entity<Query>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Queries__3214EC277C7CC3DB");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Email).HasMaxLength(255);
+            entity.Property(e => e.FullName).HasMaxLength(50);
+            entity.Property(e => e.Message).HasMaxLength(255);
+            entity.Property(e => e.Subject).HasMaxLength(200);
         });
 
         modelBuilder.Entity<Testimonial>(entity =>

@@ -1,4 +1,6 @@
 ﻿
+@model ContactIndexVM
+
 @{
     ViewData["Title"] = "Contact Page";
     ViewData["InnerPageSection"] = "Contact us";
@@ -17,19 +19,37 @@
 
 
 
-                    <form action="index.html">
+                    <form asp-controller="Contact" asp-action="Index" method="post">
+                        <div class="text-danger" asp-validation-summary="All">
+                           @*for val. errors)*@
+                        </div>
+                        @*@Html.AntiForgeryToken()*@ @*in my case i dont need*@
                         <fieldset>
-                            <input type="text" placeholder="Enter your full name" name="name" required />
-                            <input type="email" placeholder="Enter your email address" name="email" required />
-                            <input type="email" placeholder="second email " required  />
-                            <input type="text" placeholder="Enter subject" name="subject" required />
-                            <textarea placeholder="Enter your message" required></textarea>
+
+                            <input asp-for="FullName" type="text" placeholder="Enter your full name" required />
+                            <span class="text-danger" asp-validation-for="FullName"></span>
+
+                            <input asp-for="Email" type="email" placeholder="Enter your email address"  required />
+                            <span class="text-danger" asp-validation-for="Email"></span>
+
+
+                            <input asp-for="Subject" type="text" placeholder="Enter subject"  required />
+                            <span class="text-danger" asp-validation-for="Subject"></span>
+
+
+                            <textarea asp-for="Message" placeholder="Enter your message" required></textarea>
+                           
+
                             <input type="submit" value="Submit" />
                         </fieldset>
-                    </form>
+                    </form> 
 
 
-
+                    @section ValidationScript{
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+                    }
 
                 </div>
             </div>

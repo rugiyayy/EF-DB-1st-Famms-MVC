@@ -13,6 +13,8 @@ namespace EF_Famms_MVC.Controllers
         {
             _context = context;
         }
+
+        [ResponseCache(Duration =5)]
         public IActionResult Index()
         {
             var products = _context.ProductsTbls.ToList();
