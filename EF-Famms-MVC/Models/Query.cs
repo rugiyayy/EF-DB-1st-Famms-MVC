@@ -17,6 +17,9 @@ public partial class Query
     public string Message { get; set; } = null!;
 
 
+   
+
+
     //public int Id { get; set; }
 
 

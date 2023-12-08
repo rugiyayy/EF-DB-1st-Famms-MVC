@@ -1,0 +1,41 @@
+﻿@model EF_Famms_MVC.Areas.Admin.ViewModels.ContactIndexVM
+
+@{
+    ViewData["Title"] = "ADMIIIN";
+
+}   
+    
+    <h1 class="text-danger text-center mb-4 mt-2 ">ADMIN <span class="text-dark">Page</span></h1>
+
+<div class="myTabless">
+
+
+    @foreach (var item in Model.Queries)
+    {
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Message</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.FullName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Subject</td>
+                    <td>@item.Message</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    }
+</div>
+
+

@@ -27,6 +27,8 @@ namespace EF_Famms_MVC.ViewModels
         [MinLength(5, ErrorMessage = "Message can't be less than 5 characters!")]
         [MaxLength(100, ErrorMessage = "Message can't be more than 10 characters!")]
         public string? Message { get; set; }
+
+
     }
 }
 
