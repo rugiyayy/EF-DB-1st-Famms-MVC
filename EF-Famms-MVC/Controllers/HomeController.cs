@@ -33,11 +33,6 @@ namespace EF_Famms_MVC.Controllers
 
 		}
 
-		//[HttpGet]
-		//public async Task<IActionResult> GetProducts()
-		//{
-  //          return Ok(await _context.ProductsTbls.ToListAsync());
-		//}
-
+	
 	}
 }
