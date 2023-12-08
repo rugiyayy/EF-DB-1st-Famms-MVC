@@ -37,7 +37,7 @@ namespace EF_Famms_MVC.Controllers
             
 
                 _context.Queries.Add(query);
-            _context.SaveChanges(); // I checked, all changes are saved in the database
+            _context.SaveChanges(); //  all changes are saved in the database
 
 
             return RedirectToAction("Index");

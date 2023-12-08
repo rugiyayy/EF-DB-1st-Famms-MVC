@@ -7,7 +7,7 @@ namespace EF_Famms_MVC.ViewModels
     {
         [Required(ErrorMessage = "Full Name is required!")]
         [MinLength(3, ErrorMessage = "Full Name can't be less than 3 characters!")]
-        [MaxLength(10, ErrorMessage = "Name can't be more than 10 characters!")]
+        [MaxLength(20, ErrorMessage = "Name can't be more than 10 characters!")]
         public string? FullName { get; set; }
 
 
@@ -17,15 +17,15 @@ namespace EF_Famms_MVC.ViewModels
 
 
         [Required(ErrorMessage = "Subject is required!")]
-        [MinLength(5, ErrorMessage = "Subject can't be less than 5 characters!")]
-        [MaxLength(10, ErrorMessage = "Subject can't be more than 10 characters!")]
+        [MinLength(3, ErrorMessage = "Subject can't be less than 5 characters!")]
+        [MaxLength(30, ErrorMessage = "Subject can't be more than 10 characters!")]
         public string? Subject { get; set; }
 
 
 
         [Required(ErrorMessage = "Message is required!")]
         [MinLength(5, ErrorMessage = "Message can't be less than 5 characters!")]
-        [MaxLength(10, ErrorMessage = "Message can't be more than 10 characters!")]
+        [MaxLength(100, ErrorMessage = "Message can't be more than 10 characters!")]
         public string? Message { get; set; }
     }
 }
